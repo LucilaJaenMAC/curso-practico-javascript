@@ -38,6 +38,6 @@ function onClickButtonPriceDiscount(){
     const precioConDescuento = calcularPrecioConDescuento(priceValue, DiscountValue, cuponValue);
 
     const resultP = document.getElementById("ResultP");
-    resultP.innerText = "El precio con descuento es de: $" + precioConDescuento;
+    resultP.innerText = "El precio con descuento es de: $" + precioConDescuento;// Para agregar un texto a una etiqueta de HTML con su ID
 }
 
